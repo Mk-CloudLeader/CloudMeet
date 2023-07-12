@@ -2,7 +2,6 @@ dasdfadf
 
 fdafda
 
-![Uploading image.png…]()
 
 
 
