@@ -57,16 +57,102 @@
 
 ## Overview 
 ### Module 1: AWS services 
-* cloud computing (look above)
-* advantages of cloud computing (look above)
-* aws global infrastructure (look above)
-* aws security
-* aws IAM
+
+* What is cloud computing
+   * on-demand deleviery of IT resources over internet
+   * companies don't have to mantaine their own hardware and data centers
+   * TYPE OF DEPLOYMENT METHOD:
+      * on-premise
+      * cloud
+      * hybrid
+    
+* Advantages of cloud
+   * Pay-as-you-go
+   * speed/agility
+   * cost saving
+   * go global in mins
+   
+*  AWS global infrastructure
+   * Redundant resources: which means duplicated for disaster recovery, hence available any time
+   * Availability Zone: Cluster of data centers, data is replicated around multiple AZs
+   * Region: Cluster of AZs
+   * Edge network: caching data (see above for more info)
+
+* AWS security
+   * security is shared reponsiblity of user and aws
+   * PICTURE
+
+* AWS IAM (Identity Access and Management)
+   * authentication:  "you are who you say you are"
+   * authorization: "what actions can you perform" --> permission to take specific action
+   * IAM:
+      * manages access to AWS accounts and resources
+      * checks who is allowed?
+      * checks what can they do?
+      * users can define who and what can use the resources  
+
 ### Module 2: AWS Compute
-### Module 3:
-### Module 4:
-### Module 5: 
-### Module 6: 
+
+### Module 3: AWS Networking
+
+### Module 4: AWS Storage
+
+
+### Module 5: AWS Databases
+* What is a database?
+   *  Structured collection of data
+   *  A centralized repository that allows multiple users and application to access data
+   *  Simple terms ⇒ stores collection of data
+
+* What is structured and unstructed database?
+   * structured
+      * Organized in columns and rows
+      * In structured way
+      * For instance: structured data included customer ID, name, address, phone number, and email as a column and each row has details for each column
+   * unstructrured
+      * opposite of structured
+      * No structure
+      * Examples: text documents, emails, social media posts, audio and video files, images, opinions comments etc.
+      
+* What is relational database? RDBMS 
+   *  It is database management system
+   *  This is a structured database as it manages and organizes data in tabular form consisting of rows and columns.
+   
+* What is SQL?
+   *  Structured Query Language
+   *  a programming language
+   *  Structured → analyzing structured data
+   *  SQL database refers to: RDBMS
+
+* What is NoSQL?
+   * Is also known as NoSQL database
+   * Unlike traditional relational database which is structured, NoSQL focuses on unstructured data provides a different approach to storing and retrieving data
+ 
+* What is OLTP?
+   * Online Transaction Processing
+   * Type of a database system
+   * Handle and process high volumes of real-time transactions
+   * RDS:
+      * AWS relational database is based on OLTP     
+
+* What is OLAP?
+   * Online Analytical Processing
+    
+* What is caching?
+   * in memory caching
+   * The purpose of caching is to improve performance and reduce the need to fetch the data from the original source repeatedly.
+   * hardware or software component that stores frequently accessed data or instructions in a quickly accessible location.
+   * Reducing the time and effort required to access data from the main storage or memory.
+   * keeping a copy of this frequently accessed data
+   * providing faster access to frequently used data or instructions
+ 
+* Amazon's DynamoDB?
+   * No relational database
+   * DynamoDB is a fully managed, highly available and scalable NoSQL database
+   * Automatically and synchronously replicates data across AZ
+
+### Module 6: Montoring
+
 
 
 
