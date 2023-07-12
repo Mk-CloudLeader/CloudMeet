@@ -1,4 +1,4 @@
-### AWS Partner: Accreditation (Technical)
+# AWS Partner: Accreditation (Technical)
 
 ## Background info: 
 * Before cloud services companies has their own data centers that has resources and physically components like servers
@@ -53,7 +53,7 @@
   * <img src="https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/152e168a-65e1-45cc-81e1-9b24fcef31f0" width="600" height="400">
 
 
-## AWS Technical Essentials (PART 2)
+# AWS Technical Essentials (PART 2)
 
 ## Overview 
 ### Module 1: AWS services 
