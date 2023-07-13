@@ -152,11 +152,31 @@
 
 ### Module 6: Montoring
 
+#Getting Started with AWS Storage
+##Overview
+* Storage Options
+* Type of Storage: Block, File, Object
+* Why move storage to cloud?
 
+### Storage
+* Data is one of the most important assest of a business, and data is stored in storage
+* There are three types of primary storage: block, file, object
+* First understand these types
 
+### Types of storage
 ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/d7d21c86-0c0c-407c-97b9-f462607f617f)
-
-
+* FILE:
+   * in hierarchy structure
+   * organized into folders and subfolders
+   * simple/easy/cheap
+* BLOCK:
+   * large structured files like databases, application, OS
+   * divided into blocks each with unique IDs
+   * complex than file storage
+* OBJECT:
+   * new technology
+   * for large unstructured data
+   * useful for storing static content: movies, videos, songs, pictures, etc.     
 
 
 
