@@ -50,8 +50,7 @@
   ### Security --> IAM
   ### Management
   ### Networking --> VPC, Route 53
-  * <img src="https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/152e168a-65e1-45cc-81e1-9b24fcef31f0" width="600" height="400">
-
+  
 
 # AWS Technical Essentials (PART 2)
 
