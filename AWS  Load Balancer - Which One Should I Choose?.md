@@ -15,7 +15,7 @@
 
 | Title  | Link |
 | ------------- | ------------- |
-| ELB |  | https://aws.amazon.com/blogs/aws/category/elastic-load-balancing/ |
-| ALB |  | https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/ |
-| NLB |  |  |
-| Best practices for deploying Gateway Load Balancer |     | https://aws.amazon.com/blogs/networking-and-content-delivery/best-practices-for-deploying-gateway-load-balancer/ |
+| ELB |  https://aws.amazon.com/blogs/aws/category/elastic-load-balancing/ |
+| ALB  |   https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/ |
+| NLB |  xx  |
+| Best practices for deploying Gateway Load Balancer      | https://aws.amazon.com/blogs/networking-and-content-delivery/best-practices-for-deploying-gateway-load-balancer/ |
