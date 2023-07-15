@@ -19,7 +19,8 @@
 
 ### - EC2 Overview
 
-![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/f0928bf2-bb68-4597-a782-510fc8c3321a)
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/fdf4f880-4b31-4d7c-bf7c-56afc7a1459e)
+
 
 - Secure resizable compute capacity in the cloud
 - Like a VM, only hosted in AWS instead of your own data center 
