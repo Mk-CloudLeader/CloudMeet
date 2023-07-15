@@ -1,6 +1,6 @@
 # AWS_Elastic Compute Cloud (EC2)
 
-- EC2 Overview
+## - EC2 Overview
 - Demo : Launching an EC2 Instance
 - AWS Command Line (CLI)
 - Using Roles
