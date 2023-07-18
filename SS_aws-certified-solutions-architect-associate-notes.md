@@ -179,6 +179,48 @@
    * useful for storing static content: movies, videos, songs, pictures, etc.     
 
 
+#Amazon DynamoDB for Serverless Architectures
+## Overview
+* DynamoDB
+* NoSQL
+* Serverless Architecture
+* core DynamoDB components and how-to setup and access them in creating a serverless application
+
+### What is dynamoDB? 
+* NoSQL database service that is designed for OLTP
+* Also to note: it is a serverless database 
+* does not use traditional rows and columns process to store data, like in relational database
+* instead uses key-value, which means data is accessed by the primary key
+
+If I were to sell dynamoDB to you I would tell you that is it:
+*Fully Managed Service
+* highly scalable
+* global
+* easily accessible and
+* highly available 
+
+### Understanding avability zones and replica
+* Availability Zone: Cluster of data centers, and data is replicated around multiple AZs
+* Now most business will have multiple data center, in case of disaster
+   * Multi-region replication:
+      * a feature that allows data to be replicated and synchronized across multiple regions in a distributed system
+      * features: improved data availability, disaster recovery, and reduced latency for users in different geographic locations
+important to understand because most cloud providers have this feature
+## Explain the process of replica?    
+
+### Understanding back up and restore
+*  Now since you have these replicas of databases in different zones, backup and restore is easy
+*  backup is created asynchronously, so not simultaneous  
+
+
+### Caching 
+* DAX is a DynamoDB-compatible caching service
+* now what is caching? 
+   * The purpose of caching is to improve performance and reduce the need to fetch the data from the original source repeatedly.
+   * hardware or software component that stores frequently accessed data or instructions in a quickly accessible location.
+   * reducing the time and effort required to access data from the main storage or memory.
+   * keeping a copy of this frequently accessed data
+   * providing faster access to frequently used data or instructions
 
 
 
