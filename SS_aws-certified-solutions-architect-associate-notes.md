@@ -93,6 +93,15 @@
 ### Module 2: AWS Compute
 
 # Module 3: AWS Networking
+
+# VPC
+### What is networking? 
+* Connecting computing devices with each other for communication
+
+### What’s the need of private network? 
+* Is it possible for a company to grant all of its resource rights to the public? NO.
+* Private cloud is a method of sharing resources exclusively within a company's network.
+
 ### What is vpc? (Virtual private cloud)
 * virtual data center in cloud
 * allows users to create a private network within cloud environment 
@@ -109,6 +118,29 @@
 * Customize the network
    * full control over: IP address ranges, subnets, route tables, internet gateway and security settings.
 * High level security
+
+### Components of VPC network:
+* IP address ranges
+   * determines the number of IP addresses available for your resources within the VPC
+* Subnets
+   * To divide your network in chunks
+   * You need subnets because it allows resources to be broken into managble fragments 
+   * Public and private
+* Route tables
+   * Determines traffic flow of network within the VPC
+* Internet gateway
+   * Allow connection with public subnets and your VPC
+* NAT gateway
+   * For private subnets
+   * Allowing private subnets access to the internet
+* Security settings
+   * NACL (subnet level):network access control lists: act as a firewall at the subnet level, managing inbound outbound traffic
+   * Security groups (instance level): same at NACL, except they work at instance level, they control inbound and outbound traffic for individual instances
+
+# Route 53
+
+
+
 
 
 ### Module 4: AWS Storage
