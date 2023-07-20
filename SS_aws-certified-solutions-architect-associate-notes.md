@@ -92,7 +92,24 @@
 
 ### Module 2: AWS Compute
 
-### Module 3: AWS Networking
+# Module 3: AWS Networking
+### What is vpc? (Virtual private cloud)
+* virtual data center in cloud
+* allows users to create a private network within cloud environment 
+* It is basically a fully customizable network
+
+### Why would one need a private cloud?
+* Companies have a public cloud that allows public to access certain resources
+* but would company give all resource rights to public? NO
+* private cloud is used for sharing resources privately among company
+* a private cloud is like having your own personal section of the cloud, reserved exclusively for your organization's use
+
+### What is possible with VPC?
+* Create an isolated virtual network
+* Customize the network
+   * full control over: IP address ranges, subnets, route tables, internet gateway and security settings.
+* High level security
+
 
 ### Module 4: AWS Storage
 
@@ -179,7 +196,7 @@
    * useful for storing static content: movies, videos, songs, pictures, etc.     
 
 
-#Amazon DynamoDB for Serverless Architectures
+# Amazon DynamoDB for Serverless Architectures
 ## Overview
 * DynamoDB
 * NoSQL
@@ -212,18 +229,63 @@ important to understand because most cloud providers have this feature
 *  Now since you have these replicas of databases in different zones, backup and restore is easy
 *  backup is created asynchronously, so not simultaneous  
 
+# Migrating from MySQL to Amazon RDS
+### What does it mean to migrate data 
+* 
+### What is RDS?
+* fully managed service for running relational databases on AWS
+* supports six different database engine including: MySQL, PostgreSQL, and MariaDB (all open source)
 
-### Caching 
-* DAX is a DynamoDB-compatible caching service
-* now what is caching? 
-   * The purpose of caching is to improve performance and reduce the need to fetch the data from the original source repeatedly.
-   * hardware or software component that stores frequently accessed data or instructions in a quickly accessible location.
-   * reducing the time and effort required to access data from the main storage or memory.
-   * keeping a copy of this frequently accessed data
-   * providing faster access to frequently used data or instructions
+### Five step plan to migrating from MySQL to Amazon RDS? 
+* create MySQL database instance on AWS RDS
+   * video of how to do it
+   * some things they mentioned to configure: engine type you would use MySQL, mention storage you would use
+* create a replication instance in AWS DMS (databse migration service)
+   *  
+* create source and target endpoints for your database migration
+   *  
+* create a replication task in DMS
+   * 
+* complete the migration and clean up the resources
+   *     
 
+# Amazon ElastiCache Service Introduction
+### What is caching 
+* it is a way to store frequently access data 
+* the purpose of caching is to improve performance and reduce the need to fetch the data from the original source repeatedly.
+* hardware or software component that stores frequently accessed data or instructions in a quickly accessible location.
+* reducing the time and effort required to access data from the main storage or memory.
+* keeping a copy of this frequently accessed data
+* providing faster access to frequently used data or instructions
 
+# AWS Auto Scaling
+* What is auto scaling?
+   *  adjusting resources based of user demand, automatically
+   *  so example: you have 5 server working for tik tok right now, and there are only 10 users so the servers are good, but suddenly you see a splurge in users and users start feeling latency in the videos that they get. this is bc the workload on servers have reached max capacity, you need to manaully add more servers, which could again experience same problem. So companies rely on auto scaling for all their resources. 
 
+# Load Balancer
+### Overview
+* What is a load balancer?
+* What are types of load balancer?
 
+#### What is a load balancer? 
+* device that helps distribute network traffic evenly across multiple servers/resources
+* purpose: prevent a single server from becoming overwhelmed with too much traffic
+* purpose: and to ensure workload is evenly distributed among other servers to prevent servers crash
+  
+### To create a load balancer one needs?
+* Protocol listerners
+* Target types
+* Load Balancer Type and Configuration (OSI model layer)
+
+### What is OSI model layer?
+* 
+we are focusing on aws Elastic Load balancer, which provides three types of load balancers to distribute traffic across Amazon EC2 instances and other AWS resources. These three types are:
+## Classic Load Balancer (CLB):
+* Operates at both Layer 4 (Transport Layer) and Layer 7 (Application Layer).
+## Application Load Balancer (ALB):
+* Operates at Layer 7 (Application Layer) of the OSI model.
+## Network Load Balancer (NLB)
+* Operates at Layer 4 (Transport Layer) of the OSI model.
 
 
