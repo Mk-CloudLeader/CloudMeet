@@ -93,4 +93,13 @@ aws-cli/2.10.0 Python/3.11.2 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.13
 
 
 ### - Using Roles
+- what is an IAM Role?
+Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities you create and assign specific permissions to that allow trusted identities such as workforce identities and applications to perform actions in AWS. When your trusted identities assume IAM roles, they are granted only the permissions scoped by those IAM roles.
+  ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/28b186e3-ffe1-4e81-b599-c3aa4e253f70)
+  Source : AWS document
+
+  ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/b9f77b3a-a870-4719-83ec-c4e8c507255d)
+  
+
+
 
