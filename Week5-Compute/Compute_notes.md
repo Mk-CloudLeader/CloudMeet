@@ -87,6 +87,8 @@ aws-cli/2.10.0 Python/3.11.2 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.13
 
 
 | CLI Example | https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html  |
+
+
 | CLI command reference | https://docs.aws.amazon.com/cli/latest/reference/#available-services |
 
 
