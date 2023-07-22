@@ -80,6 +80,7 @@
 
 To check the currently installed version, use the following command:
 $ aws --version
+
 aws-cli/2.10.0 Python/3.11.2 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.13
 
 - Secret Access Key – you will only see this once and if you lose it, you need to delete secret key ID & Secret access key and regenerate them. You need to run aws configure again on your server. 
