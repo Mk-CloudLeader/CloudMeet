@@ -104,6 +104,7 @@
 
 ### What is vpc? (Virtual private cloud)
 * virtual data center in cloud
+* It is a virtual private cloud
 * allows users to create a private network within cloud environment 
 * It is basically a fully customizable network
 
@@ -137,14 +138,106 @@
    * NACL (subnet level):network access control lists: act as a firewall at the subnet level, managing inbound outbound traffic
    * Security groups (instance level): same at NACL, except they work at instance level, they control inbound and outbound traffic for individual instances
 
+## Security groups:
+* secure access to your individual EC2 instances
+* Acts as a firewall for each instance
+* Controlling the inbound and outbound traffic for network flow
+
+## NACL
+* Same as security groups, in terms that it also acts as a fire wall
+* But for subnet level!
+* They act as a firewall for all instances in subnet level, rather than working for individual instance
+* Although they are similar to security groups major difference
+   * NACL → stateless
+   * Security groups → stateful 
+
+## Subnets 
+* What are subnets?
+   * It is a division of IP networks allowing managmeble groups of devices within a larger network
+   * It is a network inside a network 
+* Beneifts of subnetting?
+   * Improve security
+   * Improve perfomramce
+   * Improve managebilty 
+* Subnet mask
+   * Each subnet has it unique host ID
+   
+## Route tables 
+* Used by routers to determine the best paths of data 
+
+## Gateways 
+* Bridges or interface
+* entry or exit point between two different networks
+* Two types: Internet and NAT
+   * Internet → allows internet access to public subnets
+   * NAT → allows internet access to private subnets 
+
+## AWS cloud front
+* Is CDN → or content delivery network
+* Through edge locations cloud front  deliver content with high speed
+* Edge locations → data center locations in world that strategically placed around the world to bring content closer to end-users
+* Cloud front is used for caching data from edge locations closer to user when user makes a request 
+
+# AWS services 
+## AWS Private link: private connection between your VPCs and services
+* Without internet need
+* a direct network connection established between two endpoints
+
+## VPC peering 
+* Networking connection between two VPCs
+* Private 
+
+## AWS Global accelerator
+* Accelerator as in accelerates availability and performance of applications running in multiple AWS Regions
+
 # Route 53
-
-
-
+* What is Route 53?
+   * It is DNS --> Domain name system
+   * Provided by AWS
+* What is DNS?
+   * decentralized naming system used to translate domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1).
+   * allows users to access websites and other resources using memorable domain names instead of numerical IP addresses.
 
 
 ### Module 4: AWS Storage
+#Getting Started with AWS Storage
+##Overview
+* Storage Options
+* Type of Storage: Block, File, Object
+* Why move storage to cloud?
 
+### Storage
+* Data is one of the most important assest of a business, and data is stored in storage
+* There are three types of primary storage: block, file, object
+* First understand these types
+
+### Types of storage
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/d7d21c86-0c0c-407c-97b9-f462607f617f)
+* FILE:
+   * in hierarchy structure
+   * organized into folders and subfolders
+   * simple/easy/cheap
+* BLOCK:
+   * large structured files like databases, application, OS
+   * divided into blocks each with unique IDs
+   * complex than file storage
+* OBJECT:
+   * new technology
+   * for large unstructured data
+   * useful for storing static content: movies, videos, songs, pictures, etc.     
+
+ ### Storage --> S3 and Elastic Block Store(EBS)
+* What is S3?
+  * It is an object level storage
+    * piece of data is treated as a separate object
+  * Stores data in resources called bucket
+  * Common use is → as data lake, backup and storage, app hosting, software hosting, media hosting
+  * Data lake → entralized repository, stores raw data
+  * Ustructured so stores everything
+* What is EBS?
+  * It is block level storage
+  * fixed-sized blocks
+  * Hard drive of EC2 instances 
 
 ### Module 5: AWS Databases
 * What is a database?
@@ -199,33 +292,26 @@
    * DynamoDB is a fully managed, highly available and scalable NoSQL database
    * Automatically and synchronously replicates data across AZ
 
-### Module 6: Montoring
+* Metadata
+   * information about other data
+   * file name, size, creation date, author, tags, location etc.
+* ledger database
+   * blockchain platforms like Bitcoin
+   * database designed specifically for recording and maintaining a transparent and tamper-proof history of transactions or events
 
-#Getting Started with AWS Storage
-##Overview
-* Storage Options
-* Type of Storage: Block, File, Object
-* Why move storage to cloud?
+* Asynchronous replication
+   * data replication method used in computer systems and databases to create copies of data on multiple storage devices or systems.
 
-### Storage
-* Data is one of the most important assest of a business, and data is stored in storage
-* There are three types of primary storage: block, file, object
-* First understand these types
+* Backup and recovery
+   * involve creating copies of data and implementing strategies to restore that data in case of accidental deletion, data corruption, hardware failures, natural disasters, or other catastrophic events.
 
-### Types of storage
-![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/d7d21c86-0c0c-407c-97b9-f462607f617f)
-* FILE:
-   * in hierarchy structure
-   * organized into folders and subfolders
-   * simple/easy/cheap
-* BLOCK:
-   * large structured files like databases, application, OS
-   * divided into blocks each with unique IDs
-   * complex than file storage
-* OBJECT:
-   * new technology
-   * for large unstructured data
-   * useful for storing static content: movies, videos, songs, pictures, etc.     
+* MongoDB
+   * NoSQL document database
+* Cassandra
+   * highly scalable and distributed NoSQL database 
+* Dynambo DB
+   * Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS).
+ 
 
 
 # Amazon DynamoDB for Serverless Architectures
@@ -246,7 +332,7 @@ If I were to sell dynamoDB to you I would tell you that is it:
 * highly scalable
 * global
 * easily accessible and
-* highly available 
+* highly available
 
 ### Understanding avability zones and replica
 * Availability Zone: Cluster of data centers, and data is replicated around multiple AZs
@@ -267,6 +353,13 @@ important to understand because most cloud providers have this feature
 ### What is RDS?
 * fully managed service for running relational databases on AWS
 * supports six different database engine including: MySQL, PostgreSQL, and MariaDB (all open source)
+
+
+### Module 6: Montoring
+
+
+
+
 
 ### Five step plan to migrating from MySQL to Amazon RDS? 
 * create MySQL database instance on AWS RDS
@@ -293,7 +386,8 @@ important to understand because most cloud providers have this feature
 # AWS Auto Scaling
 * What is auto scaling?
    *  adjusting resources based of user demand, automatically
-   *  so example: you have 5 server working for tik tok right now, and there are only 10 users so the servers are good, but suddenly you see a splurge in users and users start feeling latency in the videos that they get. this is bc the workload on servers have reached max capacity, you need to manaully add more servers, which could again experience same problem. So companies rely on auto scaling for all their resources. 
+   *  so example: you have 5 server working for tik tok right now, and there are only 10 users so the servers are good, but suddenly you see a splurge in users and users start feeling latency in the videos that they get. this is bc the workload on servers have reached max capacity, you need to manaully add more servers, which could again experience same problem. So companies rely on auto scaling for all their resources.
+
 
 # Load Balancer
 ### Overview
