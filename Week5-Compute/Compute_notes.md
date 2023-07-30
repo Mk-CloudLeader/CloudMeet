@@ -104,6 +104,7 @@ Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities
 ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/fe1efbda-e33a-4779-a345-02db78123474)
 
 
-## Deploying EC2 Instance
-![AWS_EC2_Deployment](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/122433722/738510df-af14-45d0-ace5-b929ecef0ae8)
+### Deploying EC2 Instance
+<img src="https://github.com/manav-dl/aws_Meetup-2023/assets/122433722/74eed498-193e-4d6e-a285-a1b22c972102" alt="Image description" style="max-width: 100%; height: auto;">
+
 
