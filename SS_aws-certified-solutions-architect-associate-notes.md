@@ -234,8 +234,7 @@
 * Dynambo DB
    * Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS).
  
-# Amazon DynamoDB for Serverless Architectures
-## Overview
+### Amazon DynamoDB for Serverless Architectures
 * DynamoDB
 * NoSQL
 * Serverless Architecture
