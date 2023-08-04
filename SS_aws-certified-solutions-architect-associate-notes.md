@@ -50,6 +50,13 @@
 * Pay as you go service
 * Scalable
 
+### Serverless vs server-based 
+* serverless --> computing model where cloud provider manages the infrastructure, scaling, and maintenance of the servers.
+  * AWS lambda: serverless compute option provided by aws web service, that is automated by aws and users pay only of whatever is used to run their code
+  * servers are deployed automatically in response to an event, for temporary time and then terminate after use
+  * users only pay for what the used rather than entire server capacity 
+* server based --> managing vms or servers where users have full control over the management of the infra but requires more time and effort
+  
 ### What does it mean by virtualized server? 
 * **Virtual machines** or virtual servers are computing option that allow user to deploy multiple OS on a single server
 * Through **hypervisor**, which allows virtualization of hardware, users can create mutliple VMs on a single server
@@ -88,6 +95,18 @@
 * Security: NACL, security groups
 * Key pair configuration: public key , private key
 
+### Iaas, Saas, PaaS
+* Infrastructure as a Service
+  * EC2
+  * where infrastruture like:  virtual machines, storage, and networking is provided as a service but user users are responsible for the OS running in the vms.
+  * user responsible for managing and maintaining the software and applications  
+* Software as a Service
+  * software applications over the internet, so software is provided as a service
+  * Microsoft 365
+  * Upgrades, maintenance, and security of software is handled by the provider
+* Platform as a Service
+???
+ 
 ## Module 2: STORAGE
 ### Overview
 * Storage Options
