@@ -49,6 +49,11 @@
 * provisons virtual servers called EC2 Instances
 * Pay as you go service
 * Scalable
+* AWS Command Line (CLI): is a unified tool to manage your AWS services.
+  * text based user interface --> manage files and run programs
+  * manage services on ur device
+ 
+*Gui*: graphical user interface, interface btween graphical icon and electronic device on ur computer  
 
 ### Serverless vs server-based 
 * serverless --> computing model where cloud provider manages the infrastructure, scaling, and maintenance of the servers.
@@ -94,6 +99,8 @@
 * Storage
 * Security: NACL, security groups
 * Key pair configuration: public key , private key
+  * private key: private, securly kept on the local machine 
+  * public key: openly shared key with others, stored on ec2 instance 
 
 ### Iaas, Saas, PaaS
 * Infrastructure as a Service
