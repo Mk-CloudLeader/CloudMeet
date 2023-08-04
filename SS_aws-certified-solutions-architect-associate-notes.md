@@ -370,12 +370,30 @@ important to understand because most cloud providers have this feature
 * AWS IAM (Identity Access and Management)
    * authentication:  "you are who you say you are"
    * authorization: "what actions can you perform" --> permission to take specific action
-   * IAM:
+  
+  ### IAM:
+     * Identity access management
+     * allows one to configure roles on what users can access
+     * it creates user id and grants permission to those users
+     * Create groups and roles
+     * it is a way to grant access to aws resources
       * manages access to AWS accounts and resources
       * checks who is allowed?
       * checks what can they do?
-      * users can define who and what can use the resources  
-
+      * users can define who and what can use the resources
+  ## start of iam
+  * Starts with a **root account** which is the email address used to sign up to aws
+  * IAM allows company to manage 
+    * Users: user who need access to aws resources in a company
+    * Groups: collection of users; Groups allow you to specify permissions for similar types of users. 
+    * Roles: IAM roles are used by AWS services to access other AWS resources ; giving temporary access to resource 
+    * Policies: define permission 
+    * Permissions: actions are allowed or denied 
+    * Authentication and Authorization: authentication (ensuring users are who they claim to be) and authorization (determining what actions a user is allowed to perform).
+## Types of AWS Credentials
+* Password/username: allowing user to access through username and password created at the aws account
+* Multi-factor authentication: additional layer of security -->  more than one authentication factor is checked before access is granted, which consists of a user name and password, and the single-use code
+* user access key
 
 ### AWS Tech topics: 
 # AWS Auto Scaling
