@@ -102,6 +102,29 @@
   * private key: private, securly kept on the local machine 
   * public key: openly shared key with others, stored on ec2 instance 
 
+### EC2 deployment steps: 
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/d580ac34-290e-4a8e-b50e-e8658328f4e2)
+
+### ways to access instance
+* instance connect --> it is a web-based interface
+* session managaer --> command line
+* SSH client --> access key pairs
+  * pair of keys for authentication
+  * private and public
+  * ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/004658bd-b920-4579-af9d-43997dbbaa20)
+
+### EC2 metadata
+* Metadata --> information about data
+* EC2 metadata --> information about the EC2 instance such as:
+  * instance type
+  * instance ID
+  * public IP
+  * security groups
+  * placement groups
+  * AMI- ids
+  * instance ID
+* using curl command user can access the metadata of an EC2 instance  
+
 ### Iaas, Saas, PaaS
 * Infrastructure as a Service
   * EC2
@@ -275,6 +298,24 @@ important to understand because most cloud providers have this feature
 * supports six different database engine including: MySQL, PostgreSQL, and MariaDB (all open source)
      
 ## Module 4: MONITORING
+
+### What is monitoring
+* this is a process of observing, measuring, and gathering information about various components of a system
+* ensures everything works
+* paying attention to an application to avoid any kind of disaster by creating checks and alarms 
+### Cloud watch 
+* AWS monitoring service
+* allows company to monitor layers of application and identify any potential issue
+* what are the features of it??
+ * collect system level Metrics --> provide information about a system's performance and behavior
+ * application level metrics --> collect info of the softwar; help understand how app is being used by user; maintaining a high-quality user experience
+ * Alarm creation and notification --> trigger alerts and notifications when some potential issue is detected 
+### Monitoring with cloud watch logs
+* cloud watch allows collecting and manageing different logs from different resources
+* collect and centralize logs from your applications, services, and AWS resources, making it easier to analyze and troubleshoot issues
+* logs = record or data or information 
+
+ 
 ### Five step plan to migrating from MySQL to Amazon RDS? 
 * create MySQL database instance on AWS RDS
    * video of how to do it
@@ -392,12 +433,14 @@ important to understand because most cloud providers have this feature
    * decentralized naming system used to translate domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1).
    * allows users to access websites and other resources using memorable domain names instead of numerical IP addresses.
 
+# Security 
 * AWS IAM (Identity Access and Management)
    * authentication:  "you are who you say you are"
    * authorization: "what actions can you perform" --> permission to take specific action
   
   ### IAM:
      * Identity access management
+     * lets you create and assign permission policies based on group, user, and role
      * allows one to configure roles on what users can access
      * it creates user id and grants permission to those users
      * Create groups and roles
@@ -406,6 +449,14 @@ important to understand because most cloud providers have this feature
       * checks who is allowed?
       * checks what can they do?
       * users can define who and what can use the resources
+  * Think of creating a document and assigning roles of reader, writer and administr
+  * Creating an AWS account grants users a root role
+  * the permissions for the account root user cannot be adjusted
+  * Organizations have different users and every team will get access to specific roles instead of every resource in the account
+    * For security and organization purpose 
+### IAM roles
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/286fbf80-7591-460a-bdaf-5e1b0774073e)
+
   ## start of iam
   * Starts with a **root account** which is the email address used to sign up to aws
   * IAM allows company to manage 
@@ -419,6 +470,37 @@ important to understand because most cloud providers have this feature
 * Password/username: allowing user to access through username and password created at the aws account
 * Multi-factor authentication: additional layer of security -->  more than one authentication factor is checked before access is granted, which consists of a user name and password, and the single-use code
 * user access key
+
+## VPC has two security groups: NACL and Security groups
+### NACL
+* Network access control lists
+* A subnet level firewall
+* Providing traffic control to inbound or outbound traffic of a subnet
+* packets that enter the boundary of subnet have to face NACL before entering the subnet; it needs to have permission to enter
+* Think of them as passport control, if packet is on permitted list they can enter or else they r blocked
+* Only works at subnet level, and doesn’t evaluate if package could enter a specific instance or not → Security groups
+
+### Security groups
+* Similar to NACL but act as firewall for instances
+* attached to AWS resources not to subnet
+* Checks for inbound traffic before entering but by default all traffic are allowed out
+* these are instance level firewall controlling traffic that goes inside of instances inside a VPC
+* users can configure which packet is allowed in based on IP add, port ranges, and protocols 
+
+### Major difference between security groups and NACL
+* Security groups are stateful and NACL are stateless
+* "Stateful" and "stateless" are terms used to describe the behavior and architecture of computer systems, applications, and services. 
+* Stateful??
+  * Means have memory about what to allow in and out
+  * remebers the previous interaction
+  * security groups
+* Stateless
+  * Means has no memory
+  * does not remeber the previous interaction
+  * NACL
+* Stateful and stateless is important during the returning phase of a package; when a package is returning back to an instance
+* Package returning back to a subnet → security groups reconizes the package (stateful) and lets the package in 
+
 
 ### AWS Tech topics: 
 # AWS Auto Scaling
@@ -435,6 +517,17 @@ important to understand because most cloud providers have this feature
 * device that helps distribute network traffic evenly across multiple servers/resources
 * purpose: prevent a single server from becoming overwhelmed with too much traffic
 * purpose: and to ensure workload is evenly distributed among other servers to prevent servers crash
+### VPC → highly available 
+* load balancers to achieve high availability, fault-tolerance, and scaling
+### Load balancer 
+* Distributes incoming traffic across a group of servers or services
+* Prevents one server to take all the load
+* Good for DR 
+* ELB (Elastic load balancer)
+  * Classic LB
+  * Application LB
+  * Network LB
+  * Gateway LB
   
 ### To create a load balancer one needs?
 * Protocol listerners
@@ -451,6 +544,4 @@ we are focusing on aws Elastic Load balancer, which provides three types of load
 ## Network Load Balancer (NLB)
 * Operates at Layer 4 (Transport Layer) of the OSI model.
 
-#### Add notes to IAM and add to load balancer more notes 
-notes not added yet: IAM, IAM roles, encryptions 
 
