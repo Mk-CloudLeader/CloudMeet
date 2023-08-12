@@ -164,7 +164,7 @@ Launch configurations are used with Auto Scaling Groups. While launch templates 
 ### Demo : Create EC2 using Launch Template 
 
 ### Auto scaling group 
-![Uploading image.png…]()
+
 
 
 
