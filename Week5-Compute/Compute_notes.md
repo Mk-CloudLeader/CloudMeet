@@ -153,6 +153,20 @@ The 3 W's of Scaling - What(define template) --where (webserver or DB) --when  (
 
  ****Launch template Vs configuration 
  
+Launch configurations are used with Auto Scaling Groups. While launch templates are used when you launch an instance using the aws EC2 console, an AWS SDK, or a command line tool. Launch templates enable you to store the parameters (AMI, instance type, security groups, and key pairs etc.)
+
+**Launch template** : The most up to date and flexiable way to create a template 
+**Launch configuration** : The older version, you can use this but AWS recomemnd to use launch template 
+**User data:** you can add in both templates or launch configuration. 
+**Change :** can be versioned I n template , configurations are immutable 
+**Networking :** Launch configurations don't include networking but Template does however if you add networking in template you can't use in ASG. Best practice - don't use networking(VPC/Subnets) in template..
+
+### Demo : Create EC2 using Launch Template 
+
+### Auto scaling group 
+![Uploading image.png…]()
+
+
 
 
 
