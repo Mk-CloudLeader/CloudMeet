@@ -64,7 +64,15 @@
 - Reserved can be purchased as a reservation for up to 70% of the on demand price  
 
 **EC2  pricing calculator** 
-  - estimate the cost for your architecture solution  
+  - estimate the cost for your architectural solution
+  - the different pricing models of EC2
+     On-demand : Pay by hr or second based on instance family type 
+     reserved   : reserved capacity for 1 - 3 years. upto 72% discount 
+     Spot  : purchase unused capacity at discount of 90%. price fluctuates with supply and demand   
+     Dedicated : A physical server dedicated for your use. Most expensive. <use case : compliance, Licensing)
+                 Supports both on-demand and reserved 
+        
+      
 
 
 | Link | https://aws.amazon.com/ec2/instance-types/|
@@ -83,7 +91,7 @@ $ aws --version
 
 aws-cli/2.10.0 Python/3.11.2 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.13
 
-- Secret Access Key – you will only see this once and if you lose it, you need to delete secret key ID & Secret access key and regenerate them. You need to run aws configure again on your server. 
+- Secret Access Key – you will only see this once, and if you lose it, you need to delete the secret key ID & Secret access key and regenerate them. You need to run aws configure again on your server. 
 
 
 | CLI Example | https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html  |
@@ -94,7 +102,7 @@ aws-cli/2.10.0 Python/3.11.2 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.13
 
 ### - Using Roles
 - what is an IAM Role?
-Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities you create and assign specific permissions to that allow trusted identities such as workforce identities and applications to perform actions in AWS. When your trusted identities assume IAM roles, they are granted only the permissions scoped by those IAM roles.
+Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities you create and assign specific permissions to that allow trusted identities such as workforce identities and applications, to perform actions in AWS. When your trusted identities assume IAM roles, they are granted only the permissions scoped by those IAM roles.
   ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/28b186e3-ffe1-4e81-b599-c3aa4e253f70)
   Source : AWS document
 
@@ -109,5 +117,20 @@ Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities
 
 
 ### Security Groups & Bootstrap Scripts
+
+### Spot instances | Spot prices|Spot blocks |Spot fleets | use cases
+
+- when do you use SPOT instances event 90% discounted rate?
+   Stateless, fault-tolerant, or flexible application - Ex: Big data analysis, Containerlized workload, CI/Cd testing, Image & media rendering, HPC(high performance computing) 
+  you can't use SPOT instance like to webserver or prod env.
+
+- what is SPOT blocks?
+- Use spot blocks to stop your SPOT instance from being terminated even if SPOT price goes above your max price. you can SPOT block 1-6 hrs only.
+- you can see historical data of SPOT instance
+
+### what is AWS Outpost?
+- AWS DC at your on-prem. you can have Outpost in Size such as 1U & 2U servers and all way upto 42U racks and multiple rack deployments.
+- Fully managed infrastrature
+- family members - Outpsot rack , Outpost servers 
 
 
