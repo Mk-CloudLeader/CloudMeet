@@ -16,6 +16,14 @@
 ### - Lab: Using EC2 Roles and Instance Profiles in AWS
 ### - Q&A
 
+## ------------------------
+HA & Scalablity 
+## -------------------------
+- Horizontal Vs vertical scaling 
+- launch template 
+- ASG : Scalaing EC2 & Scaling policies  
+- RDS & Non-RDS - Scaling 
+
 
 ### - EC2 Overview
 
@@ -130,7 +138,21 @@ Roles are Temporary. AWS Identity and Access Management (IAM) roles are entities
 
 ### what is AWS Outpost?
 - AWS DC at your on-prem. you can have Outpost in Size such as 1U & 2U servers and all way upto 42U racks and multiple rack deployments.
-- Fully managed infrastrature
+- Fully managed infrastructure
 - family members - Outpsot rack , Outpost servers 
+
+
+
+### High Availability  & Scalability 
+- Horizontal Vs vertical scaling 
+The 3 W's of Scaling - What(define template) --where (webserver or DB) --when  ( CW alarms can tell)
+- what do we scale?
+- where do we scale?
+- when do we scale?
+
+
+ ****Launch template Vs configuration 
+ 
+
 
 
