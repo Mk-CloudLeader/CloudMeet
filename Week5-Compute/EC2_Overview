@@ -16,3 +16,10 @@
 	LAB : EC2 Instance Bootstrapping
 	Lab: Using EC2 Roles and Instance Profiles in AWS
 	Q&A
+## ------------------------
+HA & Scalablity 
+## -------------------------
+- Horizontal Vs vertical scaling 
+- launch template 
+- ASG : Scalaing EC2 & Scaling policies  
+- RDS & Non-RDS - Scaling 
