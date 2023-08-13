@@ -544,4 +544,21 @@ we are focusing on aws Elastic Load balancer, which provides three types of load
 ## Network Load Balancer (NLB)
 * Operates at Layer 4 (Transport Layer) of the OSI model.
 
+## ---------------------------------------------------------- LAB --------------------------------------------------------------
+## ---------------------------------------------------------- ------------------------------------------------------------------
+
+## LAb1 :
+
+## LAb2 :
+## LAb3 :
+## LAb4 :
+## LAb5 :
+## LAb6 :
+## LAb7 :
+## LAb8 :
+## LAb9 :
+## LAb10 :
+## LAb11 :
+
+
 
