@@ -184,7 +184,8 @@ An Auto Scaling Group contains a colection of EC2 instances that are treated as 
 - Scaling Types
 - Demo
 
-![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/c614d9b6-8dd1-45c3-b05a-193567dd20f1)
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/130ee659-a5c9-4a2e-9a29-3ecb5afaf44e)
+
 
 
 
