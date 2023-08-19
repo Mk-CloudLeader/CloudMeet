@@ -17,12 +17,12 @@
 ### - Q&A
 
 ## ------------------------
-HA & Scalablity 
+### HA & Scalablity 
 ## -------------------------
-- Horizontal Vs vertical scaling 
-- launch template 
-- ASG : Scalaing EC2 & Scaling policies  
-- RDS & Non-RDS - Scaling 
+### Horizontal Vs vertical scaling 
+### launch template 
+### ASG : Scalaing EC2 & Scaling policies  
+### RDS & Non-RDS - Scaling 
 
 
 ### - EC2 Overview
@@ -151,7 +151,7 @@ The 3 W's of Scaling - What(define template) --where (webserver or DB) --when  (
 - when do we scale?
 
 
- ****Launch template Vs configuration 
+ ****Launch template Vs configuration <WHAT>
  
 Launch configurations are used with Auto Scaling Groups. While launch templates are used when you launch an instance using the aws EC2 console, an AWS SDK, or a command line tool. Launch templates enable you to store the parameters (AMI, instance type, security groups, and key pairs etc.)
 
@@ -163,7 +163,28 @@ Launch configurations are used with Auto Scaling Groups. While launch templates 
 
 ### Demo : Create EC2 using Launch Template 
 
-### Auto scaling group 
+### Auto scaling group <WHERE>
+An Auto Scaling Group contains a colection of EC2 instances that are treated as a collective group for purposes of scaling and management. 
+- Auto Scaling Steps:
+- Define yoou template
+- Networking and purchasing
+- ELB configuration
+- Set Scaling Polices
+- Notifications
+
+  ## Setting Capacity limits : Stops you from scaling too much 
+  - Minimum
+  - Maximum
+  - Desired
+## Demo : Create Auto Scaling group
+
+### Auto scaling Policies <WHEN>
+- Step scaling
+- Instance warm-up & coooldown
+- Scaling Types
+- Demo
+
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/c614d9b6-8dd1-45c3-b05a-193567dd20f1)
 
 
 
