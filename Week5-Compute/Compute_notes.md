@@ -184,11 +184,25 @@ An Auto Scaling Group contains a colection of EC2 instances that are treated as 
 - Scaling Types
 - Demo
 
-![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/130ee659-a5c9-4a2e-9a29-3ecb5afaf44e)
+# Step Scaling Scenario : Scaling Out Vs Scaling IN
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/10e67b5e-04c5-48a3-a18d-8084385ac656)
 
 
+# instance warm-up and Cooldown 
+- warm-up : this is Used when need more instances(scale out); stops instance from being placed behind the load balancer, failing the health check and being terminated
+- Coolddown : this is used when machine terminated(scale in), pauses auto scaling for set of amount of time. Helps to avoid unaway scaling events.
 
+# Scaling types
+- Reactive - based on action 
+- Schedule - based on schedule 
+- Predictive - AWS is watching scaling based on historical data, using ML.
 
+### Scaling RDS
+- Type of scaling : vertical, storage scaling, read replica, Aurora serverless
+- vertical scaling - resizing
+- scaling storage - resize storage , only up but can't go back down.
+- Read replicas - create read replicas of your data
+- Aurora serverless - excels with unpredicatable workloads. 
 
 
 
