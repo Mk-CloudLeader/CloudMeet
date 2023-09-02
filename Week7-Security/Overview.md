@@ -6,9 +6,9 @@
 - SQL injection is the placement of malicious code in SQL statements, via web page input.
 # Example :
 ----------------------------------------------------------------------------------------------------
-txtUserId = getRequestString("UserId");
+txtUserId = getRequestString("UserId"); \
 
-txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
+txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId; \
 
 Ref : https://www.w3schools.com/sql/sql_injection.asp
 ------------------------------------------------------------------------------------------------------
