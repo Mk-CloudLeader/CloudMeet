@@ -4,13 +4,14 @@
 - SQL injection is a code injection technique that might destroy your database.
 - SQL injection is one of the most common web hacking techniques.
 - SQL injection is the placement of malicious code in SQL statements, via web page input.
+  
+Ref : https://www.w3schools.com/sql/sql_injection.asp
 # Example :
 ----------------------------------------------------------------------------------------------------
 txtUserId = getRequestString("UserId"); \
 
 txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId; \
 
-Ref : https://www.w3schools.com/sql/sql_injection.asp
 ------------------------------------------------------------------------------------------------------
 
 ## What is NTP amplification attack
