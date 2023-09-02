@@ -7,7 +7,9 @@
 # Example :
 ----------------------------------------------------------------------------------------------------
 txtUserId = getRequestString("UserId");
+
 txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
+
 Ref : https://www.w3schools.com/sql/sql_injection.asp
 ------------------------------------------------------------------------------------------------------
 
