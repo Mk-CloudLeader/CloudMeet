@@ -19,5 +19,3 @@ to overwhelm a target system with UDP traffic. NTP is used by machines connected
 In an NTP amplification attack, the attacker sends short requests to an open NTP server. The response from the NTP server is dozens of times larger than the request. 
 This is called the amplification effect. 
 
-
-
