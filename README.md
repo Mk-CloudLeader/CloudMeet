@@ -13,12 +13,12 @@ Database - RDS      - Completed
 
 DNS & LB           - Completed
 
-Compute            - WIP 
+Compute            - Completed
 
 
 Monitoring 
 
-Security 
+Security        - Completed
 
 Automation 
 
