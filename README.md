@@ -23,7 +23,9 @@ Security        - Completed
 Automation 
 
 https://wheelofnames.com/
+
  
-![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/a4547376-b317-4353-8f64-7cc07d235848)
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/967c62ae-e348-456f-9624-6ef9440cf189)
+
 
 
