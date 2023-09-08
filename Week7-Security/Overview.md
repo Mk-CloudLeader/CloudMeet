@@ -16,8 +16,11 @@ txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId; \
 
 ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/bca456ef-8f7d-4f3e-81b7-d4e96c84bea1)
 
+-------------------------------------------------------------------------------------------------------------------------------
+
 ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/44846917-6ea1-4358-a63f-84b6c889762a)
 
+--------------------------------------------------------------------------------------------------------------------------------
 ## What is NTP amplification attack
 
 An NTP amplification attack is a type of Distributed Denial of Service (DDoS) attack. In this attack, the attacker uses publicly accessible Network Time Protocol (NTP) servers 
