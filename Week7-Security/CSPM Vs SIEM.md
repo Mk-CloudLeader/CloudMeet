@@ -3,8 +3,11 @@
 - ----------------------------------------------------------------- 
 
 Use case 1: Integrated SIEM tool, i.e. ArcSight with AWS Cloudwatch events.
-Use case2: Integrated SIEM tool, i.e Rapid7 with AWS Audit log achieved a/c that was centralized account to keep all cloud trail logs from multiple AWS a/c Control tower (Organization) 
-Use Case 3: Integrated multiple AWS services with Security Hub 
+
+Use case2: Integrated SIEM tool, i.e Rapid7 with AWS Audit log achieved a/c that was centralized account to keep all cloud trail logs from multiple AWS a/c Control tower (Organization).
+
+Use Case 3: Integrated multiple AWS services with Security Hub.
+
 Use Case 4: Wiz is used for CSPM 
 
  
