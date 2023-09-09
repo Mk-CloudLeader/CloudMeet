@@ -1,5 +1,5 @@
 
-## AWS Security Overview :Credit @vikash Sharma
+## AWS Security Service :Credit @vikas Sharma
 
 ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/6ac04a8e-b149-4841-9878-6fb82212815d)
 
