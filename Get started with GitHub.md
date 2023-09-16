@@ -16,8 +16,8 @@ Follow the steps below to get comfortable making changes to the code base, openi
 
 
 
-| Get started with GitHub documentation | https://docs.github.com/en/get-started |
-
+| Get started with GitHub documentation | https://docs.github.com/en/get-started | 
+---
 | starting Point | https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners |
 
 
