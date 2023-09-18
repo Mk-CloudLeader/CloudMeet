@@ -12,5 +12,6 @@ We recommend that you upgrade your databases before September 25, 2023. During a
 
 On October 25, 2023 00:00:01 AM UTC, any PostgreSQL databases running minor versions listed above that remain will be upgraded to 14.8, 13.11, 12.15 and 11.20 or higher regardless of instances’ scheduled maintenance window
 
-https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Upgrading.html#USER_UpgradeDBInstance.Upgrading.AutoMinorVersionUpgrades
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Upgrading.html#USER_UpgradeDBInstance.Upgrading.AutoMinorVersionUpgrades \
+
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html
