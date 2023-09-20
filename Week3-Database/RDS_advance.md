@@ -17,3 +17,10 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Up
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html
 
 
+### There are two types of upgrades you can manage for your PostgreSQL database:
+- Operating system updates
+- Database engine upgrades
+
+
+
+
