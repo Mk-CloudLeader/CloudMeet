@@ -15,9 +15,8 @@
     ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/0c754057-d3d3-481d-bef8-d2fe5c2367bc)
 
 - API Gateway creates RESTful APIs that: 
- - test : abc
- - test : aba2
-   
+
+    - HTTP  : Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
      - Are HTTP-based.
      - Enable stateless client-server communication.
      - Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
