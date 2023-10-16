@@ -7,10 +7,10 @@
 
   - Choose an API type [ Four diffent types in AWS]
     
-        -> HTTP  : Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
-        -> WebSocket API :Build a WebSocket API using persistent connections for real-time use cases such as chat applications or dashboards.
-        -> REST API : Develop a REST API where you gain complete control over the request and response along with API management capabilities
-        -> REST API <Private> : Create a REST API that is only accessible from within a VPC.
+         - HTTP  : Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
+         - WebSocket API :Build a WebSocket API using persistent connections for real-time use cases such as chat applications or dashboards.
+         - REST API : Develop a REST API where you gain complete control over the request and response along with API management capabilities
+         - REST API <Private> : Create a REST API that is only accessible from within a VPC.
 
     ![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/0c754057-d3d3-481d-bef8-d2fe5c2367bc)
 
