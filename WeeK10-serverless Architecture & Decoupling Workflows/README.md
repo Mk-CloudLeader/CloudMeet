@@ -37,7 +37,6 @@
  
  |Serverless Developer Guide| https://docs.aws.amazon.com/serverless/latest/devguide/welcome.html |
  | workshop| https://catalog.workshops.aws/serverless-patterns/en-US/business-scenario|
- |youtube | https://www.youtube.com/watch?v=UVA5Dw12aVI&list=UULPwDlyuX3Fkg5WNBufLnH6dw |
- 
+ |youtube | https://www.youtube.com/watch?v=UVA5Dw12aVI&list=PL5KTLzN85O4ISx9guOjbynlhCxB87xmUq&index=2 |
  
  
