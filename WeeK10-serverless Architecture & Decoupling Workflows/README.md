@@ -5,7 +5,8 @@
 - Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing **REST, HTTP, and WebSocket** APIs at any scale.
 - Amazon API Gateway helps developers to create and manage APIs to **back-end systems** running on Amazon EC2, AWS Lambda, or any publicly addressable web service. With Amazon API Gateway, you can generate custom client SDKs for your APIs, to connect your back-end systems to mobile, web, and server applications or services.
 
-  - Choose an API type [ Four diffent types in AWS] 
+  - Choose an API type [ Four diffent types in AWS]
+    
         -> HTTP  : Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
         -> WebSocket API :Build a WebSocket API using persistent connections for real-time use cases such as chat applications or dashboards.
         -> REST API : Develop a REST API where you gain complete control over the request and response along with API management capabilities
