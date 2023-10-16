@@ -22,6 +22,9 @@
 
 ### Use case- 01
 
+![image](https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/0473ed08-4a27-4d44-bb3c-8e20d6a2d44f)
+
+
   For an app to call publicly available AWS services, you can use Lambda to interact with required services and expose Lambda functions through API methods in 
   API Gateway. AWS Lambda runs your code on a highly available computing infrastructure. It performs the necessary execution and administration of computing 
   resources. To enable serverless applications, API Gateway supports streamlined proxy integrations with AWS Lambda and HTTP endpoints.
