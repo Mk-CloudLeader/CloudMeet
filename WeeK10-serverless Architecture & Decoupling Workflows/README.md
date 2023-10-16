@@ -17,6 +17,7 @@
 - API Gateway creates RESTful APIs that: 
 
     - HTTP  : Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
+      
      - Are HTTP-based.
      - Enable stateless client-server communication.
      - Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
