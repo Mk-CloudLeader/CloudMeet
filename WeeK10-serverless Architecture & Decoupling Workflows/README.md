@@ -19,14 +19,18 @@
      - Enable stateless client-server communication.
      - Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
 
- - Use case- 01
+### Use case- 01
 
   For an app to call publicly available AWS services, you can use Lambda to interact with required services and expose Lambda functions through API methods in 
   API Gateway. AWS Lambda runs your code on a highly available computing infrastructure. It performs the necessary execution and administration of computing 
   resources. To enable serverless applications, API Gateway supports streamlined proxy integrations with AWS Lambda and HTTP endpoints.
 
 - As I explained how I integrated **Snowflake** with **AWS SES** using API and Lambda Function. Snowflake uses AWS SES to send notification using API, backend Lambda.  
-   
+
+
+
+
+### Reference :   
  | AWS API Gateway | https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html |
  |Tutorial: Build an API Gateway REST API with cross-account Lambda proxy integration | https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-cross-account-lambda-integrations.html|
  
