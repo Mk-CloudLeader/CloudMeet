@@ -22,5 +22,23 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Po
 - Database engine upgrades
 
 
+### The IP addresses of my DB instances aren't consistent? 
+In Amazon RDS, the IP addresses are dynamic while the endpoints are static. Therefore, it's a best practice to use endpoints to connect to your instance. Every Amazon RDS instance has an endpoint.
+
+**The IP addresses of my DB instances aren't consistent**
+Because the IP address of your instance is dynamic, you can't assign a static IP address or an Elastic IP address to your instance. The IP address assigned to an RDS DB instance changes under one or more of the following conditions:
+
+- The instance is stopped and started again.
+Note: When the instance is rebooted, the IP addresses don't change.
+- The underlying host is replaced because of circumstances such as instance failure and DB instance class update.
+- A hardware maintenance happened on the instance.
+- The instance is in a Multi-AZ environment, and a failover happened.
+- The operating system of the DB instance undergoes software patching.
+- A manual failover of the DB instance is initiated using a reboot with failover.
+- The DB engine undergoes a major or minor version upgrade.
+- There is an outage in the Availability Zone of the instance.
+
+
+
 
 
