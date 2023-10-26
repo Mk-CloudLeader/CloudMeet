@@ -35,11 +35,14 @@
 
 
 ### Reference :   
+| Topic |  Link |
+| --    | --    |
  | AWS API Gateway | https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html |
  |Tutorial: Build an API Gateway REST API with cross-account Lambda proxy integration | https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-cross-account-lambda-integrations.html|
- 
- |Serverless Developer Guide| https://docs.aws.amazon.com/serverless/latest/devguide/welcome.html |
- | workshop| https://catalog.workshops.aws/serverless-patterns/en-US/business-scenario|
- |youtube | https://www.youtube.com/watch?v=UVA5Dw12aVI&list=PL5KTLzN85O4ISx9guOjbynlhCxB87xmUq&index=2 |
+ |common use cases of Amazon API Gateway | https://aws.amazon.com/api-gateway/resources |
+|Serverless Developer Guide| https://docs.aws.amazon.com/serverless/latest/devguide/welcome.html |
+| workshop| https://catalog.workshops.aws/serverless-patterns/en-US/business-scenario|
+|youtube | https://www.youtube.com/watch?v=UVA5Dw12aVI&list=PL5KTLzN85O4ISx9guOjbynlhCxB87xmUq&index=2 |
+
  
  
