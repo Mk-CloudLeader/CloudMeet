@@ -1,6 +1,6 @@
 ### Objectives - text comparison, summarization   
 
-### Problem statements :  Insurance customer has maintain many lengthy and different versions of different types of documents  and now customer is looking easy way to compare and summarize documents whenever new version is available.   
+### Problem statements :  Insurance customer maintain many lengthy and different versions of different types of documents  and now customer is looking easy way to compare and summarize documents whenever new version is available.   
 
 ### Solution : 
 	- Txt comparison available solution - diffchecker, drafttable, ms-compare documents etc 
