@@ -19,5 +19,5 @@
     --user-profile-name UserProfileName
   
   
-|Link|https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-cleanup.html |
-|Link|https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-delete-domain.html#gs-studio-delete-domain-studio|
+|Link | https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-cleanup.html|
+|Link | https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-delete-domain.html#gs-studio-delete-domain-studio|
