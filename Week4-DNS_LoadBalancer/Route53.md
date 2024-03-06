@@ -3,11 +3,11 @@
 -------------------------------------------------------
 
 ### LAB : Create a new private hosted zones and A record for your EC2
-#### Create a **Domain Name** : myprivatedns.com  
-	**Typ**e : Private hosted Zone|pubic hosted Zone  
-	**VPC**s to associate with the hosted Zone
+#### 1. Create a Domain Name : myprivatedns.com  
 ```
-  - You need to attache many VPC for multy aws a/c (Control tower) environments
+ - Select Type : Private hosted Zone|pubic hosted Zone  
+	- Select VPC(s) to associate with the hosted Zone
+  - You may attache many VPC, good use case for r multy aws a/c (Control tower) environments
   - Select region and VPC(s) to associate
   - Two defaults records will be created
 ```
