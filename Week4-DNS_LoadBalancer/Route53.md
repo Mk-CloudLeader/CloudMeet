@@ -21,3 +21,23 @@
   - TTL :300
   ```
 ####	Outcome : Now you can access your server using hostname “A” record inside VPC to from different VPC if associated during VPC association.
+
+####   Cloudformation to create RecordSet
+```
+{
+   "Resources" : {
+      "myDNSRecord" : {
+         "Type" : "AWS::Route53::RecordSet",
+         "Properties" : {
+            "HostedZoneId" : "Z8VLZEXAMPLE",
+            "Name" : "test.myprivatedns.com",
+            "ResourceRecords" : [
+               "171.10.10.10"
+            ],
+            "TTL" : "300",
+            "Type" : "A"
+         }
+      }
+   }
+}
+```
