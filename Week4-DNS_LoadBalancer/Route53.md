@@ -1,6 +1,6 @@
 
 ### Route53- DNS : Private |public
-### -------------------------------------------------------
+-------------------------------------------------------
 
 ### LAB : Create a new private hosted zones and A record for your EC2
 #### Create a **Domain Name** : myprivatedns.com  
