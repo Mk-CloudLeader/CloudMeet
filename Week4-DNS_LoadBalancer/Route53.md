@@ -41,3 +41,15 @@
    }
 }
 ```
+> [!TIP]
+> How do I turn on reverse DNS functionality for Route 53 with a PTR record?- https://www.youtube.com/watch?v=fQ_xR40EkBQ
+
+```
+# Reverse DNS 
+$ nslookup  3.23.155.245
+245.155.23.3.in-addr.arpa       name = ec2-3-23-155-245.us-east-2.compute.amazonaws.com
+
+```
+The zone for reverse PTR records belong to whoever you got the IP address from
+Ex : X-245.155.23.3.in-addr.arpa.
+ 
