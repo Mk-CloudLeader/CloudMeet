@@ -6,15 +6,27 @@ You only need to know a few Git commands to learn how to push code to GitHub. Yo
 ### New to git? 
 Follow the steps below to get comfortable making changes to the code base, opening up a **pull request (PR)**, and **merging code** into the primary branch. 
 
- Step 0: Install git and create a GitHub account 
+ Step: Install git and create a GitHub account 
  
 - Follow the instructions below to install git 
   https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Once you've done that, create a GitHub account
   https://github.com/join
 
+### GitHUB
 
-# Basic writing and formattig Syntax
+<img width="697" alt="image" src="https://github.com/Mk-CloudLeader/aws_Meetup-2023/assets/66654978/d31e38de-40ff-42de-bb06-113ba23c3813">
+
+### GitHUB and Git LAB :
+1. GitHub
+   -  Clone your central repository on your machine
+      - $ git clone  https://github.com/Mk-CloudLeader/aws_Meetup-2023.git
+      - $ git init
+      - 
+   -  xxx
+   -  xxx
+
+# Basic writing and formatting Syntax
 ## A second-level heading
 ### A third-level heading
 
