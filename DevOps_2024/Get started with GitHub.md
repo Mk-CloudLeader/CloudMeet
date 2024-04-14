@@ -1,6 +1,10 @@
 
 ##### Table of Contents  
-[abc](#GitHUB)  
+[New to git?](#New to git?)
+[GITHUB](#GitHUB)
+[Nested Lists](#### Nested Lists)
+
+
 [Emphasis](#emphasis)  
 ...snip...    
 <a name="headers"/>
