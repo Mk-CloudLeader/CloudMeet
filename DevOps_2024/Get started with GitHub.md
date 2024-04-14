@@ -1,6 +1,6 @@
 
 ##### Table of Contents  
-[abc](#headers)  
+[abc](#GitHUB)  
 [Emphasis](#emphasis)  
 ...snip...    
 <a name="headers"/>
@@ -20,11 +20,7 @@ Follow the steps below to get comfortable making changes to the code base, openi
 - Once you've done that, create a GitHub account
   https://github.com/join
 
-
-## Headers
-this is tgest 
-this is test 
-
+ 
 
 ### GitHUB
 
