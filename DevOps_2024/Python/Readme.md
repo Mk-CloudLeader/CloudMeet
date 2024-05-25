@@ -1,4 +1,17 @@
 
+### Agenda 
+
+```
+  - Python installation on Windows/UNIX/Mac
+  -   String |Variables|Number|Boolean|
+  -   List|dictonary| touple|
+  -    Conditiona|while, for Loop|breack_continue
+ -  method/Function |lambda_Function
+  - exceptionhandling
+ - Excercise 
+
+```
+
 ## Python Modules, Packages, Libraries, and Frameworks
 
 If you are new to Python, you might be confused about - libraries, packages, modules, and frameworks. From the context, these are some pieces of code but what’s the difference between them?
