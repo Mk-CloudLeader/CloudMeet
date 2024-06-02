@@ -2,13 +2,53 @@
 ### Agenda 
 
 ```
-  - Python installation on Windows/UNIX/Mac
-  -   String |Variables|Number|Boolean|
-  -   List|dictonary| touple|
-  -    Conditiona|while, for Loop|breack_continue
- -  method/Function |lambda_Function
-  - exceptionhandling
- - Excercise 
+
+- Python installation   -- Done 
+- Python Overview.      -- done 
+
+# Practice 1 [s3]
+- variables
+- Numbers
+- boolean
+- string and string's method 
+
+# Practice 2 [S4]
+- list
+- list's method
+- dictionary, dictionary nested, dictionary's method  
+- tuples 
+
+# Practice 3 [S5]
+- comparators 
+- boolean-operators
+
+
+# Practice 4 [S6]
+- condition 
+- while_loop
+- breack_continue
+- for_loop
+- multiple list
+- range 
+
+# Practice 5 [S7]
+- method
+- built_in_functions
+
+
+# Practice 6 [S8]
+- class
+- class_inheritance
+
+# Practice 7 [S9]
+- exceptionhandling 
+
+# Practice 8 [S10]
+- modules 
+
+# Practice 9 [S11]
+- filedemo
+
 
 ```
 
