@@ -1,7 +1,30 @@
 # YAML
+[Description](#description)
 
+[Syntax and Structure](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#syntax-and-structure)
+- [Key Value Pairs](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#key-value-pairs)
+- [Indentation](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#identation)
+- [Lists](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#lists)
+- [Nested Structures](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#nested-strucutres)
+- [Scalars](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#scalars)
+- [Comments](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#comments)
+- [Tags](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#tags)
+- [Anchors and Aliases](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#anchors-and-aliases)
+- [Multiline Strings](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#multiline-strings)
+
+[Data Types](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#data-types)
+- [Scalars](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#1-scalars)
+- [Sequences (Lists)](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#2-sequences-lists)
+- [Mappings (Dictionaries)](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#3-mappings-dictionaries)
+- [Nested Structures](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#4-nested-structures)
+- [Multiline Strings](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#multiline-strings)
+- [Anchors and Aliases](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#anchors-and-aliases)
+- [Sets](https://github.com/manav-dl/aws_Meetup-2023/blob/main/DevOps_2024/Excercise/yaml.md#7-sets)
+
+## Description
 - Data serialization (process of converting structured data into a format that can be easily stored or transmitted and reconstructed later) standard for programming languages.
 - Used for config files and data exchange between languages with diff data structures.
+
 ## Syntax and Structure:
 ### Key-Value Pairs:
 - Uses key-value pairs to represent data
@@ -160,7 +183,7 @@ user1:
   email: false    
   sms: false  
  username: user1
-	
+
 user2:  
  theme: dark  
  font_size: 16  
