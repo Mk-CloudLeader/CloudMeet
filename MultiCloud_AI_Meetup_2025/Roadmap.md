@@ -4,4 +4,4 @@
 - Container
 - Multi_Cloud
 
-- use all concept that we discussed in last year - GitHub, DevOps & AWS Cloud
+- use all concepts that we discussed in the last TWO years - GitHub, DevOps & AWS Cloud
