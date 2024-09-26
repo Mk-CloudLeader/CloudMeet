@@ -1,6 +1,6 @@
 ## Roadmap 2025
 
-- AI/MLOPS
+- AI/MLOPS/DS
 - Container
 - Multi_Cloud
 
