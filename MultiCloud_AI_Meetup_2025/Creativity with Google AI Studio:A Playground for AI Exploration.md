@@ -117,3 +117,12 @@ The era of multimodal AI is here, and Gemini 2.0 is leading the charge. By combi
 - share your screen and now use Multimodal Live APIs as your customer service agent.
   [Link](https://aistudio.google.com/live)
 <img width="701" alt="image" src="https://github.com/user-attachments/assets/32d41015-3f20-4e66-a49c-0c9884b4d48c" />
+
+
+
+## Gemini Code Assist: AI coding assistance for any language
+Uncap your potential and get all of your development done using Gemini Code Assist for individuals at no cost, or Gemini Code Assist for your business.
+
+https://marketplace.visualstudio.com/items?itemName=Google.geminicodeassist
+- AI-assisted development powered by Gemini 2.0
+- 
